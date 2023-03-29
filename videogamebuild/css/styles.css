@@ -26,10 +26,12 @@
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    background-color: black;
+    opacity: 50%;
   }
   
-  #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
+  #main-logo { width: 300px; padding: 10px 20px; justify-content: center;}
   
   /* main rules here */
   #character-nav { margin-left: 30%; max-width: 60%; }
