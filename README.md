@@ -21,4 +21,4 @@ i made the the scelation structure and also tdid the basic css styling of the we
 
 I created the checkbox. I made some changes in css for checkbox and added images for character details and info. 
 
-Screenshot 2023-03-29 164419.png
+Screenshot 2023-03-29 164419.pngScreenshot 2023-03-29 164419.png
