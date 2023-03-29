@@ -16,9 +16,9 @@
   background-color: black;
   color: white;
   
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/backgroud.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   }
   
   /* main header rules */
@@ -38,7 +38,7 @@
   
   .characters li { 
     display: inline-block;
-    height: 220px;
+    height: 300px;
     margin: 10px 8px;
   
     background-color: black;
@@ -113,6 +113,7 @@
   
   /* lightbox rules here */
   
+  
   .lightbox { 
     width: 100vw; /* vw = viewport width => screen width */
     height: 100vh; /* vh = viewport height => screen height */
@@ -122,25 +123,7 @@
     left: 0;
   
     background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
-    background-repeat: no-repeat;
-  
-    background-size: 55vh; /* 55% of the viewport height */
-    background-position: 40px bottom;
-  
-    display: none;
-  }
-  /* put images of the charactor hear*/
-  .lightbox { 
-    width: 100vw; /* vw = viewport width => screen width */
-    height: 100vh; /* vh = viewport height => screen height */
-  
-    position: absolute;
-    top: 0;
-    left: 0;
-  
-    background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/sova.png');
+    background-image: url('../images/omen\ 1080\ x\ 1920.jpg');
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
@@ -150,11 +133,11 @@
   }
   
   
-  #lightbox2 { background-image: url('../images');}
-  #lightbox3 { background-image: url('../images');}
-  #lightbox4 { background-image: url('../images');}
-  #lightbox5 { background-image: url('../images');}
-  #lightbox6 { background-image: url('../images');}
+  #lightbox2 { background-image: url('../images/brimstone1080\ x\ 1920.jpg');}
+  #lightbox3 { background-image: url('../images/rayne1080\ x\ 1920.jpg');}
+  #lightbox4 { background-image: url('../images/raze\ 1080\ x\ 1920.jpg');}
+  #lightbox5 { background-image: url('../images/valorant-viper\ 1080\ x\ 1920.jpg');}
+  #lightbox6 { background-image: url('../images/sova.png');}
   
   
   .lightbox_close {
@@ -188,3 +171,67 @@
   
   /* turn the lightbox on using the :target pseudo selector */
   .lightbox:target { display: block; }
+
+  input[type="checkbox"]:checked::before {
+    content: "\2714";
+    font-size: 14px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    color: rgb(227, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for label */
+  label {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  
+  
+   
+    
+  h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+    
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+    
+  li {
+    margin-bottom: 10px;
+  }
+
+
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+    
+  
+  #character-nav input[type='checkbox'],
+  #done input[type='checkbox'] {
+    display: inline-block;
+    vertical-align: middle;
+  }
+    
+    
+  #character-nav input[type='checkbox']:checked + label {
+    color: #999;
+    text-decoration: line-through;
+  }
+    
+  
+  #character-nav input[type='checkbox']:checked + label {
+    color: #666;
+    text-decoration: line-through;
+  }
+    
+    
+  #character-nav input[type='checkbox']:checked + label::after {
+    content: "\2713";
+    color: green;
+    margin-left: 5px;
+  }
