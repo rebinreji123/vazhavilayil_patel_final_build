@@ -15,4 +15,10 @@ In addition to serving as a resource for existing players, the website will also
 
 #### Sneh :
 
-i made the the scelation structure and also tdid the basic css styling of the wesite and i made the sprit image and logo for the website . and at last i put the logo of the valorant in the titie bar of the website 
+i made the the scelation structure and also tdid the basic css styling of the wesite and i made the sprit image and logo for the website . and at last i put the logo of the valorant in the titie bar of the website
+
+#### Rebin
+
+I created the checkbox. I made some changes in css for checkbox and added images for character details and info. 
+
+Screenshot 2023-03-29 164419.png
